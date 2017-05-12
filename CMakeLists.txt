@@ -29,4 +29,4 @@ endfunction (add_client)
 
 configure_DynamoRIO_global(OFF ON)
 
-add_client(inscount "tracer.c" "drmgr;drreg;drutil;drx")
+add_client(tracer "tracer.c" "drmgr;drreg;drutil;drx")
